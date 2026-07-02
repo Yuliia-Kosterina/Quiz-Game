@@ -1,0 +1,87 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 9, 48, 0.72);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 100;
+}
+
+.modal {
+  width: min(640px, 100%);
+  border-radius: 24px;
+  padding: 28px;
+  background: linear-gradient(180deg, #111560 0%, #090d3f 100%);
+  color: white;
+  border: 1px solid rgba(247, 217, 106, 0.35);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.price {
+  margin: 0 0 8px;
+  color: #f7d96a;
+  font-weight: 700;
+}
+
+.title {
+  margin: 0 0 16px;
+  font-size: 28px;
+}
+
+.question {
+  margin: 0 0 18px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.timer {
+  margin-bottom: 18px;
+  color: #9fd8ff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  border: 1px solid rgba(247, 217, 106, 0.3);
+  border-radius: 12px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-size: 16px;
+}
+
+.error {
+  min-height: 18px;
+  margin: 0;
+  color: #ffb5b5;
+  font-size: 13px;
+}
+
+.button {
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  background: #f7d96a;
+  color: #161657;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}

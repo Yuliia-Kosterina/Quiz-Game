@@ -1,0 +1,64 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+}
+
+.block {
+  border: 1px solid rgba(247, 217, 106, 0.28);
+  border-radius: 20px;
+  padding: 22px;
+  background: rgba(9, 13, 63, 0.78);
+}
+
+.title {
+  margin: 0 0 16px;
+  color: #f7d96a;
+}
+
+.stats {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.statItem {
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.table {
+  display: grid;
+  gap: 8px;
+}
+
+.headRow,
+.bodyRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 10px;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.headRow {
+  background: rgba(247, 217, 106, 0.14);
+  color: #f7d96a;
+  font-weight: 700;
+}
+
+.bodyRow {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.block:last-child .headRow,
+.block:last-child .bodyRow {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

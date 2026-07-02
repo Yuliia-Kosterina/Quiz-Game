@@ -1,0 +1,12 @@
+client/node_modules/
+client/.next/
+client/tsconfig.tsbuildinfo
+client/.env.local
+client/.env*.local
+
+server/node_modules/
+server/.env
+server/.env*.local
+
+.DS_Store
+Thumbs.db

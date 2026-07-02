@@ -1,0 +1,58 @@
+.page {
+  min-height: calc(100vh - 140px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+}
+
+.card {
+  width: min(480px, 100%);
+  border-radius: 24px;
+  padding: 28px;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 24, 100, 0.95) 0%,
+    rgba(7, 10, 44, 0.98) 100%
+  );
+  border: 1px solid rgba(247, 217, 106, 0.28);
+  box-shadow: 0 24px 60px rgba(6, 10, 48, 0.3);
+}
+
+.title {
+  margin: 0 0 10px;
+  color: white;
+  font-size: 32px;
+}
+
+.text {
+  margin: 0 0 22px;
+  color: #cfd7ff;
+}
+
+.switcher {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab,
+.activeTab {
+  flex: 1;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.tab {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+.activeTab {
+  border: 1px solid transparent;
+  background: #f7d96a;
+  color: #141863;
+}

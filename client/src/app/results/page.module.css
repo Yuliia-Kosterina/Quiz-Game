@@ -1,0 +1,28 @@
+.page {
+  width: min(1200px, calc(100% - 32px));
+  margin: 32px auto 48px;
+  color: white;
+}
+
+.title {
+  margin: 0 0 20px;
+  color: #f7d96a;
+  font-size: 36px;
+}
+
+.state {
+  width: min(760px, calc(100% - 32px));
+  margin: 40px auto;
+  padding: 28px;
+  border: 1px solid rgba(247, 217, 106, 0.28);
+  border-radius: 20px;
+  background: rgba(9, 13, 63, 0.8);
+  color: white;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 16px;
+  color: #f7d96a;
+}
